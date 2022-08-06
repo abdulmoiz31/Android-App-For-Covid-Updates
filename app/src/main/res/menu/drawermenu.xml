@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/srtc" android:title="Sort By Confirmed"  android:icon="@drawable/ic_confirm"/>
+        <item android:id="@+id/srtr" android:title="Sort By Recovered" android:icon="@drawable/ic_recovered"/>
+        <item android:id="@+id/srtd" android:title="Sort By Deaths" android:icon="@drawable/ic_grave"/>
+        <item android:id="@+id/exit" android:title="Quit App" android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+
+</menu>
