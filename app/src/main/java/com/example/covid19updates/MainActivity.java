@@ -341,8 +341,8 @@ parsejson();
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers=new HashMap<>();
-                headers.put("x-rapidapi-host", "covid-19-data.p.rapidapi.com");
-                headers.put("x-rapidapi-key", "aaba10cb3emshc19de4d004614eap156767jsn622918633cd4");
+                headers.put("x-rapidapi-host", "Enter Your Rapid API host name");
+                headers.put("x-rapidapi-key", "Enter Your Rapid API Key");
 
                 return headers;
             }
